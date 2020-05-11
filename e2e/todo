@@ -1,0 +1,17 @@
+visit doc jest
+install jest
+install supertest
+folder test
+skenario test aplikasi
+menulis test
+
+pastikan menulis test terlebih dahulu. jangan ngoding pembuat fitur sebelum buat script test
+
+
+pembuatan fitur
+
+generate db: harus pake 
+NODE_ENV=test sequelize db:create
+NODE_ENV=test sequelize db:migrate
+
+

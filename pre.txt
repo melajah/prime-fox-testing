@@ -1,0 +1,31 @@
+testing
+jadi, ketika kalian sudah masuk ke dunia kerja, kalian akan menemukan pm(project manager), tester, dan programmer. ketika perusahaan ingin membuat aplikasi, project manager tidak akan langsung mengeksekusi pembuatan aplikasi tsb. akan tetapi, pm akan menganlisa terlebih dahulu fitur apa yang dibutuhan, lalu analisa tsb diberitakan ke tester 
+
+
+why testing
+
+- untuk menghindari regresi. jadi kalau pakai automation test ga perlu lagi nge test fungsi2 lain yang kena dampak dari fungsi yang baru kita bikin
+
+- jadi lebih yakin buat refactor(membongkar code lama, dan memperbaikin/optimize code) kalau diperlukan, karna ga perlu makan waktu lama buat ngetestnya, karna masing2 unit test tadi
+
+-urutan penulisan code mungkin hahaha
+jadi dari test kan kita bisa baca code nya ngapain
+
+ketiga nya itu adalah automation test.
+jadi kan proses development itu kan dimulai dari coding lalu testing,
+nah pada saat coding itu developer diharapkan untuk memastikan fungsionalitas modul atau unit terkecilnya itu berjalan sesuai dengan requirement. Itulah yang biasa disebut unit testing
+pada saat integration testing ini dilakukan untuk ngetest di service level biasanya ngetest API yang terintegrasi, misalkan ada 2  API yang saling berkomunikasi di level test ini la integration testing itu dilakukan.
+e2e atau User Interface Testing, itu ngetest aplikasi dari sudut pandang user. jadi disini kita bakal nulis skrip test untuk ngesimulasiin behavior orang yang bakalan make app nya , jadi mirip2 bikin bot lah, makanya test ini yang paling lama dan butuh cost yang banyak
+
+level pada testing
+7:59
+e2e stands for end-to-end
+7:59
+makin keatas makin lambat karena makin banyak hal yang harus ditest
+7:59
+dan pastinya akan lebih "mahal" dari banyak sisi
+7:59
+unit test paling bawah karena test komponen paling kecil (atomic)
+
+
+User acceptance testing (UAT) is the last phase of the software testing process

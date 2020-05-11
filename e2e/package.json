@@ -1,0 +1,22 @@
+{
+  "name": "run",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "db:drop": "NODE_ENV=test sequelize db:drop",
+    "generate": "NODE_ENV=test sequelize db:create && NODE_ENV=test sequelize db:migrate",
+    "test": "npm run db:drop && npm run generate && jest  --runInBand --detectOpenHandles  --forceExit"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.1.0",
+    "sequelize": "^5.21.8"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
+  }
+}
